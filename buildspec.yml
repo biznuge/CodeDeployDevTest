@@ -3,6 +3,7 @@ phases:
   pre_build:
     commands:
       - composer install
-  build:
-    commands:
-      - phpunit tests
+# REMOVING as PHPUNIT tests aren't in place at all.
+#  build:
+#    commands:
+#      - phpunit tests
